@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./player.js" type="text/javascript"></script>
+    <script src="./enemy.js" type="text/javascript"></script>
+    <script src="./gamemanager.js" type="text/javascript"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <p>Play the greatest RPG ever to be made!</p>
+      <h2>Choose your character!</h2>
+    </div>
+    <div class="interface">
+      <a href="#" onclick="GameManager.setGameStart('Warrior')">
+        <img src="img/player/warrior.png" alt="warrior" class="img-avatar" />
+        <div>
+          <h3>Warrior</h3>
+          <p>
+            Warriors have higher health and stamina, however their strength
+            makes them slower and clumsier.
+          </p>
+        </div>
+      </a>
+      <br />
+      <a href="#" onclick="GameManager.setGameStart('Rogue')">
+        <img src="img/player/rogue.png" alt="rogue" class="img-avatar" />
+        <div>
+          <h3>Rogue</h3>
+          <p>
+            Rogues are fast and have high stamina and speed which makes up for
+            the lack of health and strength.
+          </p>
+        </div>
+      </a>
+      <br />
+      <a href="#" onclick="GameManager.setGameStart('Mage')">
+        <img src="img/player/mage.png" alt="mage" class="img-avatar" />
+        <div>
+          <h3>Mage</h3>
+          <p>
+            Mages are the glass canons which puts all their efforts into speeds.
+            This means they lack on everything else.
+          </p>
+        </div>
+      </a>
+      <br />
+      <a href="#" onclick="GameManager.setGameStart('Hunter')">
+        <img src="img/player/hunter.png" alt="hunter" class="img-avatar" />
+        <div>
+          <h3>Hunter</h3>
+          <p>
+            Hunters are well rounded fighters that focus on everything out their
+            skills.No strength or weaknesses.
+          </p>
+        </div>
+      </a>
+      <br />
+    </div>
+    <div class="actions"></div>
+    <div class="arena"></div>
+    <div class="enemy"></div>
+  </body>
+</html>
