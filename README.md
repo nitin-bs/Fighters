@@ -8,5 +8,7 @@ When user attacks depending on the speed and agility of user and enemy, alert me
 When health of enemy goes to 0 then you win.
 When health of your character goes to 0, you lose.
 
+Refresh the page tto restart the game.
+
 
 Play the live demo here: https://nitin-bs.github.io/Fighters/
