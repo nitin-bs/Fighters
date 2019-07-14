@@ -7,3 +7,6 @@ When user clicks on find enemy, the computer randomly picks up an enemy for batt
 When user attacks depending on the speed and agility of user and enemy, alert messages will be displayed representing the result of attack.
 When health of enemy goes to 0 then you win.
 When health of your character goes to 0, you lose.
+
+
+Play the live demo here: https://nitin-bs.github.io/Fighters/
